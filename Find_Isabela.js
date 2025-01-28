@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 
 const CustodySchedule = () => {
   const initialMothersWeekend = new Date(2025, 0, 25); // Um sábado
-  const [selectedDate, setSelectedDate] = useState(new Date());
+  const [selectedDate, setSelectedDate] = useState(null); // Inicializa como null
 
   const formatDate = (date) => date.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' });
 
   const determineParent = (checkDate) => {
+    if (!checkDate) return ''; // Retorna vazio se não houver data selecionada
+    
     // Encontra o sábado da semana atual
     const dayOfWeek = checkDate.getDay();
     const daysFromSaturday = dayOfWeek === 0 ? -1 : 6 - dayOfWeek; // Se for domingo, volta 1 dia, caso contrário calcula dias até sábado
@@ -15,11 +17,11 @@ const CustodySchedule = () => {
     
     // Calcula a diferença de semanas baseado no sábado
     const weeksDiff = Math.floor((saturday.getTime() - initialMothersWeekend.getTime()) / (7 * 24 * 60 * 60 * 1000));
-    return weeksDiff % 2 === 0 ? 'Pai' : 'Mãe'; // Invertido a lógica aqui
+    return weeksDiff % 2 === 0 ? 'Chico' : 'Marcela';
   };
 
   const handleDateChange = (event) => {
-    setSelectedDate(new Date(event.target.value));
+    setSelectedDate(event.target.value ? new Date(event.target.value) : null);
   };
 
   return (
