@@ -4,13 +4,27 @@
 
 body {
   margin: 0;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.responsavel {
+  font-size: 2rem; /* Aumenta o tamanho da fonte */
+  font-weight: bold; /* Deixa em negrito */
+  margin-top: 10px; /* Dá um pequeno espaçamento acima */
+}
 
+.label-grande {
+  font-size: 1.2rem;
+  text-align: center;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
