@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fdsBela/static/css/main.c2846a66.chunk.css",
-    "main.js": "/fdsBela/static/js/main.e02420de.chunk.js",
-    "main.js.map": "/fdsBela/static/js/main.e02420de.chunk.js.map",
+    "main.css": "/fdsBela/static/css/main.5eb3ba99.chunk.css",
+    "main.js": "/fdsBela/static/js/main.10594c5c.chunk.js",
+    "main.js.map": "/fdsBela/static/js/main.10594c5c.chunk.js.map",
     "runtime~main.js": "/fdsBela/static/js/runtime~main.01022b8b.js",
     "runtime~main.js.map": "/fdsBela/static/js/runtime~main.01022b8b.js.map",
     "static/js/2.ae026ab9.chunk.js": "/fdsBela/static/js/2.ae026ab9.chunk.js",
@@ -10,8 +10,8 @@
     "static/js/3.6757c1ca.chunk.js": "/fdsBela/static/js/3.6757c1ca.chunk.js",
     "static/js/3.6757c1ca.chunk.js.map": "/fdsBela/static/js/3.6757c1ca.chunk.js.map",
     "index.html": "/fdsBela/index.html",
-    "precache-manifest.085000e63614bada5ffdd5bbd0b51b99.js": "/fdsBela/precache-manifest.085000e63614bada5ffdd5bbd0b51b99.js",
+    "precache-manifest.280a0e9200eb51f1602433e43adf8504.js": "/fdsBela/precache-manifest.280a0e9200eb51f1602433e43adf8504.js",
     "service-worker.js": "/fdsBela/service-worker.js",
-    "static/css/main.c2846a66.chunk.css.map": "/fdsBela/static/css/main.c2846a66.chunk.css.map"
+    "static/css/main.5eb3ba99.chunk.css.map": "/fdsBela/static/css/main.5eb3ba99.chunk.css.map"
   }
 }
