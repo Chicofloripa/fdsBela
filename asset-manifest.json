@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/fdsBela/static/css/main.e6c13ad2.css",
-    "main.js": "/fdsBela/static/js/main.93168fe1.js",
-    "static/js/488.b2e8e04d.chunk.js": "/fdsBela/static/js/488.b2e8e04d.chunk.js",
+    "main.css": "/fdsBela/static/css/main.c2846a66.chunk.css",
+    "main.js": "/fdsBela/static/js/main.381cfc64.chunk.js",
+    "main.js.map": "/fdsBela/static/js/main.381cfc64.chunk.js.map",
+    "runtime~main.js": "/fdsBela/static/js/runtime~main.01022b8b.js",
+    "runtime~main.js.map": "/fdsBela/static/js/runtime~main.01022b8b.js.map",
+    "static/js/2.ae026ab9.chunk.js": "/fdsBela/static/js/2.ae026ab9.chunk.js",
+    "static/js/2.ae026ab9.chunk.js.map": "/fdsBela/static/js/2.ae026ab9.chunk.js.map",
+    "static/js/3.6757c1ca.chunk.js": "/fdsBela/static/js/3.6757c1ca.chunk.js",
+    "static/js/3.6757c1ca.chunk.js.map": "/fdsBela/static/js/3.6757c1ca.chunk.js.map",
     "index.html": "/fdsBela/index.html",
-    "main.e6c13ad2.css.map": "/fdsBela/static/css/main.e6c13ad2.css.map",
-    "main.93168fe1.js.map": "/fdsBela/static/js/main.93168fe1.js.map",
-    "488.b2e8e04d.chunk.js.map": "/fdsBela/static/js/488.b2e8e04d.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.93168fe1.js"
-  ]
+    "precache-manifest.f5ab62b286496e90d6274e3393ccac20.js": "/fdsBela/precache-manifest.f5ab62b286496e90d6274e3393ccac20.js",
+    "service-worker.js": "/fdsBela/service-worker.js",
+    "static/css/main.c2846a66.chunk.css.map": "/fdsBela/static/css/main.c2846a66.chunk.css.map"
+  }
 }
